@@ -24,13 +24,14 @@ class Problem
       end
     end
     puts output.inspect
+    output
   end
 
 end
 
-sample = Problem.new
-sample.check_time('2015-06-29 11:58:47')
-sample.check_time('2015-06-27 06:20:07')
-sample.check_time('2015-05-07 20:10:40')
+#sample = Problem.new
+#sample.check_time('2015-06-29 11:58:47')
+#sample.check_time('2015-06-27 06:20:07')
+#sample.check_time('2015-05-07 20:10:40')
 
 
